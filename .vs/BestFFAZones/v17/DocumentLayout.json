@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\natha\\Desktop\\Sunrises DUO\\BestFFAZones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2EB2C0-7E68-41C2-A3DC-920D5753B647}|BestFFAZones.csproj|c:\\users\\natha\\desktop\\sunrises duo\\bestffazones\\services\\zoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2EB2C0-7E68-41C2-A3DC-920D5753B647}|BestFFAZones.csproj|solutionrelative:services\\zoneservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2EB2C0-7E68-41C2-A3DC-920D5753B647}|BestFFAZones.csproj|c:\\users\\natha\\desktop\\sunrises duo\\bestffazones\\services\\ffaconfigservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2EB2C0-7E68-41C2-A3DC-920D5753B647}|BestFFAZones.csproj|solutionrelative:services\\ffaconfigservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2EB2C0-7E68-41C2-A3DC-920D5753B647}|BestFFAZones.csproj|c:\\users\\natha\\desktop\\sunrises duo\\bestffazones\\services\\playerzonetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2EB2C0-7E68-41C2-A3DC-920D5753B647}|BestFFAZones.csproj|solutionrelative:services\\playerzonetracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2EB2C0-7E68-41C2-A3DC-920D5753B647}|BestFFAZones.csproj|c:\\users\\natha\\desktop\\sunrises duo\\bestffazones\\commands\\ffazonecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B2EB2C0-7E68-41C2-A3DC-920D5753B647}|BestFFAZones.csproj|solutionrelative:commands\\ffazonecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B2EB2C0-7E68-41C2-A3DC-920D5753B647}|BestFFAZones.csproj|c:\\users\\natha\\desktop\\sunrises duo\\bestffazones\\bestffazones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8B2EB2C0-7E68-41C2-A3DC-920D5753B647}|BestFFAZones.csproj|solutionrelative:bestffazones.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ZoneService.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\Sunrises DUO\\BestFFAZones\\Services\\ZoneService.cs",
+              "RelativeDocumentMoniker": "Services\\ZoneService.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\Sunrises DUO\\BestFFAZones\\Services\\ZoneService.cs",
+              "RelativeToolTip": "Services\\ZoneService.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T16:48:53.582Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FFAZoneCommands.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\Sunrises DUO\\BestFFAZones\\Commands\\FFAZoneCommands.cs",
+              "RelativeDocumentMoniker": "Commands\\FFAZoneCommands.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\Sunrises DUO\\BestFFAZones\\Commands\\FFAZoneCommands.cs",
+              "RelativeToolTip": "Commands\\FFAZoneCommands.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T14:53:45.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BestFFAZones.csproj",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\Sunrises DUO\\BestFFAZones\\BestFFAZones.csproj",
+              "RelativeDocumentMoniker": "BestFFAZones.csproj",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\Sunrises DUO\\BestFFAZones\\BestFFAZones.csproj",
+              "RelativeToolTip": "BestFFAZones.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-13T14:17:22.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FFAConfigService.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\Sunrises DUO\\BestFFAZones\\Services\\FFAConfigService.cs",
+              "RelativeDocumentMoniker": "Services\\FFAConfigService.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\Sunrises DUO\\BestFFAZones\\Services\\FFAConfigService.cs",
+              "RelativeToolTip": "Services\\FFAConfigService.cs",
+              "ViewState": "AQIAAFUAAAAAAAAAAAAYwEkAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-13T14:12:13.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PlayerZoneTracker.cs",
+              "DocumentMoniker": "C:\\Users\\natha\\Desktop\\Sunrises DUO\\BestFFAZones\\Services\\PlayerZoneTracker.cs",
+              "RelativeDocumentMoniker": "Services\\PlayerZoneTracker.cs",
+              "ToolTip": "C:\\Users\\natha\\Desktop\\Sunrises DUO\\BestFFAZones\\Services\\PlayerZoneTracker.cs",
+              "RelativeToolTip": "Services\\PlayerZoneTracker.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAUwG4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T22:23:41.7Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
