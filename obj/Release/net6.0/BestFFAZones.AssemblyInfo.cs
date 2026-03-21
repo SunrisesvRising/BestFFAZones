@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Only the best of the best")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+850a337f7f7aeba4c9463858d98b5dbd0da4be0b")]
 [assembly: System.Reflection.AssemblyProductAttribute("BestFFAZones")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BestFFAZones")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

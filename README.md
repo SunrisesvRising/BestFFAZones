@@ -16,15 +16,27 @@ There are three types of zone behaviour:
 
 ---
 
+## Integration with BestKillfeed
+
+BestFFAZones supports a **soft-dependency integration** with [BestKillfeed](https://github.com/SunrisesvRising/BestKillfeed). When both mods are installed together:
+
+- The killfeed displays a `[FFA]` tag when both the killer and the victim are inside a FFA zone.
+- Level gap restrictions are ignored for kills inside FFA zones — rewards are granted regardless of level difference.
+
+BestKillfeed detects BestFFAZones automatically at runtime — no additional configuration is required. Each mod works independently without the other.
+
+---
+
 ## Installation
 
 1. Install **BepInEx** on your V Rising dedicated server.
 2. Install **VampireCommandFramework**.
 3. Drop `BestFFAZones.dll` into your `BepInEx/plugins/` folder.
-4. Start the server — the config file is auto-generated on first launch at:
-   ```
+4. *(Optional)* Install **BestKillfeed** to enable killfeed and reward integration.
+5. Start the server — the config file is auto-generated on first launch at:
+```
    BepInEx/config/BestFFAZones/FfaZoneConfig.json
-   ```
+```
 
 ---
 
@@ -33,7 +45,6 @@ There are three types of zone behaviour:
 Config file: `BepInEx/config/BestFFAZones/FfaZoneConfig.json`
 
 The config is a JSON file with three sections:
-
 ```json
 {
   "FfaZones": [
@@ -96,6 +107,7 @@ Notifications are sent only on zone transitions. Players moving within the same 
 - Zone detection runs every **1 second** server-side, keeping performance impact minimal.
 - Zones are loaded from the game world on the **first player connection** after server start.
 - The mod handles zone **boundary detection** and **notifications** only — actual PvP rule enforcement (damage, flagging) depends on your server's PvP settings.
+- Offline players whose body remains in a FFA zone are still considered inside the zone for kill detection purposes (relevant for BestKillfeed integration).
 
 ---
 
@@ -103,3 +115,6 @@ Notifications are sent only on zone transitions. Players moving within the same 
 
 - [BepInEx](https://github.com/BepInEx/BepInEx) for V Rising
 - [VampireCommandFramework](https://github.com/decaprime/VampireCommandFramework)
+
+### Optional
+- [BestKillfeed](https://github.com/SunrisesvRising/BestKillfeed) — Enables killfeed `[FFA]` tag and level gap bypass in FFA zones.

@@ -1,4 +1,5 @@
 using ProjectM.Terrain;
+using ProjectM.Network;
 using Unity.Collections;
 using Unity.Entities;
 using Unity.Mathematics;
@@ -86,6 +87,39 @@ namespace BestFFAZones.Services
             foreach (var zone in _zones)
                 if (zone.ContainsPoint(px, pz)) return zone;
             return null;
+        }
+
+        public static bool IsPlayerInFfaZone(ulong steamId)
+        {
+            var em = Core.EntityManager;
+
+            var query = em.CreateEntityQuery(ComponentType.ReadOnly<User>());
+            var users = query.ToEntityArray(Allocator.Temp);
+
+            try
+            {
+                foreach (var userEntity in users)
+                {
+                    var user = em.GetComponentData<User>(userEntity);
+                    if (user.PlatformId != steamId) continue;
+
+                    var charEntity = user.LocalCharacter._Entity;
+                    if (charEntity == Entity.Null || !em.Exists(charEntity)) return false;
+                    if (!em.HasComponent<NetworkId>(charEntity)) return false;
+
+                    var networkId = em.GetComponentData<NetworkId>(charEntity);
+                    var zoneName = PlayerZoneTracker.GetPlayerZone(networkId.Normal_Index);
+
+                    return zoneName != null && FfaConfigService.IsFfaZone(zoneName);
+                }
+            }
+            finally
+            {
+                users.Dispose();
+                query.Dispose();
+            }
+
+            return false;
         }
     }
 }

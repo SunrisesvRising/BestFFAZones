@@ -227,3 +227,4 @@ C:\Users\natha\Desktop\Sunrises DUO\BestFFAZones\obj\Release\net6.0\BestFFAZones
 C:\Users\natha\Desktop\Sunrises DUO\BestFFAZones\obj\Release\net6.0\refint\BestFFAZones.dll
 C:\Users\natha\Desktop\Sunrises DUO\BestFFAZones\obj\Release\net6.0\BestFFAZones.pdb
 C:\Users\natha\Desktop\Sunrises DUO\BestFFAZones\obj\Release\net6.0\ref\BestFFAZones.dll
+C:\Users\natha\Desktop\Sunrises DUO\BestFFAZones\obj\Release\net6.0\BestFFAZones.sourcelink.json
